@@ -1,0 +1,8 @@
+2021/05/31 19:32:01 [error] 7324#17840: *1 CreateFile() "D:\google\nginx\nginx-1.20.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/05/31 19:36:59 [emerg] 10612#15648: unknown directive "nginx" in D:\google\nginx\nginx-1.20.1/conf/nginx.conf:45
+2021/05/31 19:37:19 [notice] 13556#6400: signal process started
+2021/05/31 20:09:43 [emerg] 6208#14808: unexpected "}" in D:\google\nginx\nginx-1.20.1/conf/nginx.conf:50
+2021/05/31 20:10:00 [emerg] 18364#15660: unexpected "}" in D:\google\nginx\nginx-1.20.1/conf/nginx.conf:50
+2021/05/31 20:10:12 [emerg] 15180#13468: unexpected "}" in D:\google\nginx\nginx-1.20.1/conf/nginx.conf:50
+2021/05/31 20:10:45 [notice] 4032#10688: signal process started
+2021/05/31 20:11:32 [notice] 15692#1916: signal process started
