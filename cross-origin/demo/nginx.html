@@ -10,7 +10,7 @@
   <h1>你好！</h1>
 </body>
 <script>
-  fetch('http://localhost:5002/nginx')
+  fetch('http://localhost:80/api/nginx')
   .then(res => res.text())
   .then(data => alert(data));
 </script>
