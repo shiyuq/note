@@ -16,6 +16,7 @@ app.get('/cors', function (req, res) {
   if (req.headers.origin && whiteList.indexOf(req.headers.origin) >= 0) {
     res.header('Access-Control-Allow-Origin', req.headers.origin);
   }
+  res.header('Access-Control-Allow-Headers', 'Origin, Content-Type, Content-Length, Authorization, Accept, X-Requested-With, Token, Accept-Encoding')
   res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
   res.header("X-Powered-By", ' 3.2.1')
   res.header("Content-Type", "application/json;charset=utf-8");
@@ -24,11 +25,15 @@ app.get('/cors', function (req, res) {
 
 // 方案二：JSONP
 app.get('/jsonp', function (req, res) {
+  // 操作一
   // const cb = req.query.callback;
   // res.send(`${cb}('hello world!')`);
+
+  // 操作二
   app.set('jsonp callback name', 'callback'); // 回调名称
   res.jsonp({ name: 'hello world!' });
 
+  // 操作三
   // const jsonpCallback = app.get('jsonp callback name');
   // const jsonp = req.query[jsonpCallback];
   // if (jsonp) {
