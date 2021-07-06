@@ -1,0 +1,14 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "note",
+  "main": "",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "scripts": {},
+  "author": "shiyuq"
+}
