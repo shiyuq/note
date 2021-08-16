@@ -42,7 +42,37 @@ class ClassDeclaration {}
 console.log(ClassDeclaration); // class ClassDeclaration {}
 ```
 
-## 类的构成
+## 类的简介
 
-类可以包含构造函数
+上面的怕是看着很枯燥把，我们来看下面一个例子，在es6之前，我们生成实例对象是通过什么方式呢？没错！构造函数。
+
+```javascript
+function Person(name, actor) {
+    this.name = name;
+   	this.actor = actor;
+}
+
+Person.prototype.toString = function () {
+    return `${this.name},${this.actor}`;
+}
+
+const zhangsan = new Person('zhangsan', 'fawaikuangtu');
+```
+
+上面的也就是我们上一章说的构造函数生成实例的方式。那么在 `es6` ，引入了 `class` 这个概念，我们再看用  `class` 实现上述相同的代码。
+
+```javascript
+class Person {
+    constructor (name, actor) {
+        this.name = name;
+        this.actor = actor;
+    }
+    
+    tostring () {
+        return `${this.name},${this.actor}`;
+    }
+}
+
+const zhangsan = new Person('zhangsan', 'fawaikuangtu');
+```
 
