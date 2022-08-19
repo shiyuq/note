@@ -1,0 +1,109 @@
+<mxfile host="65bd71144e">
+    <diagram id="TWEilJyKDqVp_oQGf-Uk" name="第 1 页">
+        <mxGraphModel dx="1614" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="70" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="10" width="1230" height="1100" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="940" width="830" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="280" width="830" height="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="295" width="220" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="214" y="35" width="200" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="35" width="830" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="web" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="95" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="app（IOS、安卓）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="95" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="小程序" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="95" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="其他" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="1050" y="95" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="214" y="280" width="200" height="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="日志监控" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="365" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="监控保护" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="305" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="微信告警" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="435" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="链路跟踪" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="505" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="295" width="220" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="服务治理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="930" y="365" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="治理&amp;amp;配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="930" y="305" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="配置管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="930" y="435" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="文件预处理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="670" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="接口限流" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="670" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="黑、白名单" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="805" y="670" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="内外网区分" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="970" y="670" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="文件配置管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="930" y="505" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="文件内容检测" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="1140" y="670" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="计划任务（清除过期文件）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="780" width="790" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="客户端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="100" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="服务层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="555" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="214" y="940" width="200" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="数据层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="284" y="970" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="mysql" style="shape=datastore;whiteSpace=wrap;html=1;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="950" width="90" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="redis" style="shape=datastore;whiteSpace=wrap;html=1;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="1050" y="950" width="90" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="oss" style="shape=datastore;whiteSpace=wrap;html=1;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="950" width="90" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
